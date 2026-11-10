@@ -1,0 +1,11 @@
+{
+  "org": "paupino",
+  "repo": "rust-decimal",
+  "versions": [
+    {
+      "commit": "a7f0216e837f3f3973759e7e9fae28783d33ed77",
+      "tag": "",
+      "parsed_at": "2026-11-10T03:02:39.494250+00:00"
+    }
+  ]
+}
