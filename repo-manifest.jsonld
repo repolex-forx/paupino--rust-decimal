@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/paupino/rust-decimal/commit/a7f0216e837f3f3973759e7e9fae28783d33ed77",
       "git:hexsha": "a7f0216e837f3f3973759e7e9fae28783d33ed77",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-10T03:02:39.493343+00:00"
     },
     {
       "@id": "https://repolex.ai/r/paupino/rust-decimal/commit/0d9c7cd23a1c0ba1a273b7dd567349bc86bc2207",
