@@ -274,6 +274,273 @@
       ],
       "ast": [
         "aggregate/ast/b06790eb7620a34cf2c49717a01eb09156bb5b6c/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/b06790eb7620a34cf2c49717a01eb09156bb5b6c.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "arbitrary",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "rust-fuzz",
+          "githubRepo": "arbitrary",
+          "githubUrl": "https://github.com/rust-fuzz/arbitrary/",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "arrayvec",
+          "ecosystem": "CARGO",
+          "version": "0.7",
+          "githubOrg": "bluss",
+          "githubRepo": "arrayvec",
+          "githubUrl": "https://github.com/bluss/arrayvec",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "borsh",
+          "ecosystem": "CARGO",
+          "version": "1.1.1",
+          "githubOrg": "near",
+          "githubRepo": "borsh-rs",
+          "githubUrl": "https://github.com/near/borsh-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "bytemuck",
+          "ecosystem": "CARGO",
+          "version": "1.17.1",
+          "githubOrg": "Lokathor",
+          "githubRepo": "bytemuck",
+          "githubCommit": "dc059fd187c45cd9739aeedabd5e75e527058f90",
+          "githubTag": "v1.17.1",
+          "githubUrl": "https://github.com/Lokathor/bytemuck",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "bytemuck_derive",
+          "ecosystem": "CARGO",
+          "version": "1.7.1",
+          "githubOrg": "Lokathor",
+          "githubRepo": "bytemuck",
+          "githubUrl": "https://github.com/Lokathor/bytemuck",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "bytes",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "bytes",
+          "githubUrl": "https://github.com/tokio-rs/bytes",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "diesel",
+          "ecosystem": "CARGO",
+          "version": "2.2.3",
+          "githubOrg": "diesel-rs",
+          "githubRepo": "diesel",
+          "githubCommit": "8fb58634b39d8d9a632337df57b3336c7a388c54",
+          "githubTag": "v2.2.3",
+          "githubUrl": "https://github.com/diesel-rs/diesel",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "ndarray",
+          "ecosystem": "CARGO",
+          "version": "0.15.6",
+          "githubOrg": "rust-ndarray",
+          "githubRepo": "ndarray",
+          "githubCommit": "e080d62bb23a1099468c5941345d71e8738472a3",
+          "githubTag": "0.15.6",
+          "githubUrl": "https://github.com/rust-ndarray/ndarray",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "num-traits",
+          "ecosystem": "CARGO",
+          "version": "0.2",
+          "githubOrg": "rust-num",
+          "githubRepo": "num-traits",
+          "githubUrl": "https://github.com/rust-num/num-traits",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "postgres-types",
+          "ecosystem": "CARGO",
+          "version": "0.2",
+          "githubOrg": "rust-postgres",
+          "githubRepo": "rust-postgres",
+          "githubUrl": "https://github.com/rust-postgres/rust-postgres",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "proptest",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "proptest-rs",
+          "githubRepo": "proptest",
+          "githubUrl": "https://github.com/proptest-rs/proptest",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand",
+          "ecosystem": "CARGO",
+          "version": "0.8",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rust_decimal_macros",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "paupino",
+          "githubRepo": "rust-decimal",
+          "githubUrl": "https://github.com/paupino/rust-decimal",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rkyv",
+          "ecosystem": "CARGO",
+          "version": "0.7.46",
+          "githubOrg": "rkyv",
+          "githubRepo": "rkyv",
+          "githubUrl": "https://github.com/rkyv/rkyv",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rocket",
+          "ecosystem": "CARGO",
+          "version": "0.5.0-rc.3",
+          "githubOrg": "rwf2",
+          "githubRepo": "Rocket",
+          "githubCommit": "91f6288ea4aeb3d5a502b2f18b2b9677a85463ea",
+          "githubTag": "v0.5.0-rc.3",
+          "githubUrl": "https://github.com/rwf2/Rocket",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "zmij",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "dtolnay",
+          "githubRepo": "zmij",
+          "githubUrl": "https://github.com/dtolnay/zmij",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio-postgres",
+          "ecosystem": "CARGO",
+          "version": "0.7",
+          "githubOrg": "rust-postgres",
+          "githubRepo": "rust-postgres",
+          "githubUrl": "https://github.com/rust-postgres/rust-postgres",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "criterion",
+          "ecosystem": "CARGO",
+          "version": "0.5",
+          "githubOrg": "criterion-rs",
+          "githubRepo": "criterion.rs",
+          "githubUrl": "https://github.com/criterion-rs/criterion.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "csv",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "BurntSushi",
+          "githubRepo": "rust-csv",
+          "githubUrl": "https://github.com/BurntSushi/rust-csv",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "version-sync",
+          "ecosystem": "CARGO",
+          "version": "0.9",
+          "githubOrg": "mgeisler",
+          "githubRepo": "version-sync",
+          "githubUrl": "https://github.com/mgeisler/version-sync",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "trybuild",
+          "ecosystem": "CARGO",
+          "version": "1.0.125",
+          "githubOrg": "dtolnay",
+          "githubRepo": "trybuild",
+          "githubCommit": "b0820fd696e120ea6fb0bae2235140929f0c5237",
+          "githubTag": "1.0.125",
+          "githubUrl": "https://github.com/dtolnay/trybuild",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/trybuild-1.0.125/src/lib.rs"
+        },
+        {
+          "packageName": "serde_core",
+          "ecosystem": "CARGO",
+          "version": "1.0.229",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8",
+          "githubTag": "v1.0.229",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_core-1.0.229/src/de/mod.rs"
+        },
+        {
+          "packageName": "bincode",
+          "ecosystem": "CARGO",
+          "version": "1.3.3",
+          "githubOrg": "bincode-org",
+          "githubRepo": "bincode",
+          "githubUrl": "https://github.com/bincode-org/bincode",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bincode-1.3.3/src/lib.rs"
+        },
+        {
+          "packageName": "syn",
+          "ecosystem": "CARGO",
+          "version": "2.0.119",
+          "githubOrg": "dtolnay",
+          "githubRepo": "syn",
+          "githubCommit": "3295f9e9841785ac88a5e558c884854d5fb7d67f",
+          "githubTag": "2.0.119",
+          "githubUrl": "https://github.com/dtolnay/syn",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/syn-2.0.119/src/parse.rs"
+        },
+        {
+          "packageName": "quote",
+          "ecosystem": "CARGO",
+          "version": "1.0.47",
+          "githubOrg": "dtolnay",
+          "githubRepo": "quote",
+          "githubCommit": "723dcb47d3f0ddc896e17287c8a8d3f2ea2317d5",
+          "githubTag": "1.0.47",
+          "githubUrl": "https://github.com/dtolnay/quote",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.47/src/lib.rs"
+        }
       ]
     }
   ],
